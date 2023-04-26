@@ -4,8 +4,7 @@ This is a project displaying some work I did for a minimal React app that utiliz
 
 To build the image once you have the repository cloned and are in the project dir, you can do one of two things:
 - Run `docker-compose -f docker-compose-dev.yml up --build`
-- Run `docker build -f Dockerfile.dev .` and then the Docker CLI will return an image created on build and you can copy and paste it into the next command:
-- `docker run #{image_id}`
+- Run `docker build -f Dockerfile.dev .` and then the Docker CLI will return an image created on build and you can copy and paste it into the next command: `docker run #{image_id}`
 
 Either of these approaches will start up your development environement by installing all of your dependencies in a node:alpine base image and starting your dev server on port 3000 on your local machine.
 
